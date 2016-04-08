@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="pt_scala$sources_2.11"
+		revision="1.0"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20160408172245"/>
+	<dependencies>
+		<module organisation="com.enragedginger" name="akka-quartz-scheduler_2.11">
+			<revision name="1.5.0-akka-2.4.x" status="release" pubdate="20160305195050" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/enragedginger/akka-quartz-scheduler" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3758" time="0" location="/Users/pthomas/.ivy2/cache/com.enragedginger/akka-quartz-scheduler_2.11/ivy-1.5.0-akka-2.4.x.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/enragedginger/akka-quartz-scheduler_2.11/1.5.0-akka-2.4.x/akka-quartz-scheduler_2.11-1.5.0-akka-2.4.x.pom"/>
+				<caller organisation="default" name="pt_scala$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="1.5.0-akka-2.4.x" rev-constraint-default="1.5.0-akka-2.4.x" rev-constraint-dynamic="1.5.0-akka-2.4.x" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="akka-quartz-scheduler_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11075" time="0" location="/Users/pthomas/.ivy2/cache/com.enragedginger/akka-quartz-scheduler_2.11/srcs/akka-quartz-scheduler_2.11-1.5.0-akka-2.4.x-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/enragedginger/akka-quartz-scheduler_2.11/1.5.0-akka-2.4.x/akka-quartz-scheduler_2.11-1.5.0-akka-2.4.x-sources.jar"/>
+					</artifact>
+					<artifact name="akka-quartz-scheduler_2.11" type="jar" ext="jar" status="no" details="" size="86456" time="0" location="/Users/pthomas/.ivy2/cache/com.enragedginger/akka-quartz-scheduler_2.11/jars/akka-quartz-scheduler_2.11-1.5.0-akka-2.4.x.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/enragedginger/akka-quartz-scheduler_2.11/1.5.0-akka-2.4.x/akka-quartz-scheduler_2.11-1.5.0-akka-2.4.x.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.quartz-scheduler" name="quartz">
+			<revision name="2.2.2" status="release" pubdate="20151012075253" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4781" time="0" location="/Users/pthomas/.ivy2/cache/org.quartz-scheduler/quartz/ivy-2.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/quartz-scheduler/quartz/2.2.2/quartz-2.2.2.pom"/>
+				<caller organisation="default" name="pt_scala$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="quartz" type="jar" ext="jar" status="no" details="" size="660382" time="0" location="/Users/pthomas/.ivy2/cache/org.quartz-scheduler/quartz/jars/quartz-2.2.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/quartz-scheduler/quartz/2.2.2/quartz-2.2.2.jar"/>
+					</artifact>
+					<artifact name="quartz" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="549045" time="0" location="/Users/pthomas/.ivy2/cache/org.quartz-scheduler/quartz/srcs/quartz-2.2.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/quartz-scheduler/quartz/2.2.2/quartz-2.2.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.7" status="release" pubdate="20140404071248" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<metadata-artifact status="no" details="" size="4567" time="0" location="/Users/pthomas/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom"/>
+				<caller organisation="default" name="pt_scala$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="49406" time="0" location="/Users/pthomas/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.7-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7-sources.jar"/>
+					</artifact>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="29257" time="0" location="/Users/pthomas/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="c3p0" name="c3p0">
+			<revision name="0.9.1.1" status="release" pubdate="20070420142229" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://c3p0.sourceforge.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="GNU LESSER GENERAL PUBLIC LICENSE" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="2699" time="0" location="/Users/pthomas/.ivy2/cache/c3p0/c3p0/ivy-0.9.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/c3p0/c3p0/0.9.1.1/c3p0-0.9.1.1.pom"/>
+				<caller organisation="default" name="pt_scala$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="0.9.1.1" rev-constraint-default="0.9.1.1" rev-constraint-dynamic="0.9.1.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="c3p0" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="459319" time="0" location="/Users/pthomas/.ivy2/cache/c3p0/c3p0/srcs/c3p0-0.9.1.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/c3p0/c3p0/0.9.1.1/c3p0-0.9.1.1-sources.jar"/>
+					</artifact>
+					<artifact name="c3p0" type="jar" ext="jar" status="no" details="" size="608376" time="0" location="/Users/pthomas/.ivy2/cache/c3p0/c3p0/jars/c3p0-0.9.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/c3p0/c3p0/0.9.1.1/c3p0-0.9.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.8" status="release" pubdate="20160304102633" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/pthomas/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom"/>
+				<caller organisation="default" name="pt_scala$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="911686" time="0" location="/Users/pthomas/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5744974" time="0" location="/Users/pthomas/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
