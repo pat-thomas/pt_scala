@@ -4,7 +4,7 @@
 		module="pt_scala$sbt_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160408172245"
+		publication="20160408173031"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>
