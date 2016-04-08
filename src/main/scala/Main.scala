@@ -1,19 +1,19 @@
 import com.typesafe.akka.extension.quartz.QuartzSchedulerExtension
-import akka.actor.Actor
-import akka.actor.ActorSystem
-import akka.actor.Props
+import akka.actor._
 
-class HelloActor extends Actor {
+class HelloActor(myName: String) extends Actor {
   def receive = {
-    case "hello" => println("hello back at you")
-    case _ => println("huh?")
+    case "hello" => println("hello from %s".format(myName))
+    case _ => println("'huh?', said %s".format(myName))
   }
 }
 
 object Main extends App {
-  //val scheduler = QuartzSchedulerExtension(system)
   val system = ActorSystem("HelloSystem")
-  val helloActor = system.actorOf(Props[HelloActor], name = "helloactor")
+  val helloActor = system.actorOf(Props(new HelloActor("Fred")), name = "helloactor")
   helloActor ! "hello"
   helloActor ! "buenos dias"
+
+  val scheduler = QuartzSchedulerExtension(system)
 }
+
